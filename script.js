@@ -23,7 +23,8 @@ const products=[
 ["Mini Waffle Maker","Electric Kitchen","₹1,099","₹1,699","🧇"],
 ["Portable Handheld Vacuum","Smart Gadget","₹899","₹1,499","🧹"],
 ["Multi-function Kitchen Scissors","Kitchen Tool","₹229","₹399","✂️"],
-["Phone Cleaning Kit","Mobile Gadget","₹179","₹299","🧽"]
+["Phone Cleaning Kit","Mobile Gadget","₹179","₹299","🧽"],["IBS 4K Action Camera", "Smart Gadget", "₹1,599", "₹3,999", "📷"],
+ 
 ];
 let active="All";
 const cats=["All",...new Set(products.map(p=>p[1]))];
